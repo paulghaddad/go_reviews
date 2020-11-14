@@ -4,8 +4,8 @@ type Dictionary map[string]string
 type DictionaryErr string
 
 const (
-	ErrNotFound = DictionaryErr("Could not find the word")
-	ErrWordExists = DictionaryErr("The word already exists")
+	ErrNotFound         = DictionaryErr("Could not find the word")
+	ErrWordExists       = DictionaryErr("The word already exists")
 	ErrWordDoesNotExist = DictionaryErr("Cannot update because word does not exist")
 )
 
